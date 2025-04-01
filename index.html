@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yoga Class Signup</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">Join Our Yoga Classes</h1>
+            <p class="hero-subtitle">Find your inner peace with our expert-led yoga sessions.</p>
+            <a href="#signup" class="cta">Sign Up Now</a>
+        </div>
+    </header>
+
+    <!-- About Us Section -->
+    <section class="about">
+        <div class="about-content">
+            <div class="about-text">
+                <h2 class="section-title">About Our Studio</h2>
+                <p>We are a dedicated yoga studio committed to helping you achieve balance, strength, and mindfulness. Our experienced instructors offer a variety of classes for all levels, from beginners to advanced practitioners. Join us to start your journey to wellness today!</p>
+            </div>
+            <div class="about-image">
+                <img src="https://images.unsplash.com/photo-1603988363607-e1e4a66962c1?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Yoga Studio">
+            </div>
+        </div>
+    </section>
+
+    <!-- Classes Section -->
+    <section class="classes">
+        <h2 class="section-title">Our Classes</h2>
+        <div class="classes-grid">
+            <div class="class-card">
+                <img src="https://images.unsplash.com/photo-1545205597-3d9c666c6f0f?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Hatha Yoga">
+                <h3>Hatha Yoga</h3>
+                <p>Focus on breath and alignment with gentle poses, perfect for beginners.</p>
+            </div>
+            <div class="class-card">
+                <img src="https://images.unsplash.com/photo-1599900555469-7e4b4e406aa0?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Vinyasa Flow">
+                <h3>Vinyasa Flow</h3>
+                <p>Dynamic sequences to build strength and flexibility, ideal for all levels.</p>
+            </div>
+            <div class="class-card">
+                <img src="https://images.unsplash.com/photo-1603988492906-4a7d2436c6af?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Restorative Yoga">
+                <h3>Restorative Yoga</h3>
+                <p>Relax and restore with supported poses, great for stress relief.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials">
+        <h2 class="section-title">What Our Clients Say</h2>
+        <div class="testimonials-grid">
+            <div class="testimonial-card">
+                <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-4.0.3&auto=format&fit=crop&w=200&q=80" alt="Client 1">
+                <p>"The classes have transformed my daily routine. I feel more centered and energized!"</p>
+                <h4>— Sarah M.</h4>
+            </div>
+            <div class="testimonial-card">
+                <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-4.0.3&auto=format&fit=crop&w=200&q=80" alt="Client 2">
+                <p>"The instructors are amazing and the studio has such a calming vibe."</p>
+                <h4>— James L.</h4>
+            </div>
+        </div>
+    </section>
+
+    <!-- Signup Form Section -->
+    <section id="signup" class="signup">
+        <h2 class="section-title">Sign Up for a Class</h2>
+        <form id="signup-form" class="signup-form">
+            <div class="form-group">
+                <label for="name">Full Name</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="class-time">Preferred Class Time</label>
+                <select id="class-time" name="class-time" required>
+                    <option value="" disabled selected>Select a time</option>
+                    <option value="morning">Morning (8:00 AM)</option>
+                    <option value="afternoon">Afternoon (2:00 PM)</option>
+                    <option value="evening">Evening (6:00 PM)</option>
+                </select>
+            </div>
+            <button type="submit" class="cta">Submit</button>
+            <p id="form-message" class="form-message hidden"></p>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer class="contact">
+        <h2 class="section-title">Contact Us</h2>
+        <p>Email: yoga@studio.com</p>
+        <p>Phone: (123) 456-7890</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
